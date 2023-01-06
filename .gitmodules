@@ -10,3 +10,6 @@
 [submodule "repos/electronrepo"]
 	path = repos/electronrepo
 	url = https://github.com/vhc1946/electronrepo.git
+[submodule "template/VA-electrontemplate"]
+	path = template/VA-electrontemplate
+	url = https://github.com/vhc1946/VA-electrontemplate.git
