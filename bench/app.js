@@ -48,7 +48,7 @@ app.on('ready',(eve)=>{
     }
     mainv.on('close',(eve)=>{ //any app closing code below
     });
-  }else{appset.dev.page==''?mainv = viewtools.loader(controlsroot+'main.html',defw,defh,false,false,false):mainv=viewtools.loader(controlsroot+appset.dev.page,defw,defh,false,false,'hidden')}
+  }else{appset.dev.page==''?mainv = viewtools.loader(controlsroot+'main.html',defw,defh,false,false,false):mainv=viewtools.loader(controlsroot+appset.dev.page,defw,defh,false,false)}
 });
 
 /* APP login
