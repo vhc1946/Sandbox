@@ -1,0 +1,9 @@
+[submodule "templates"]
+	path = templates
+	url = git@github.com:vhc1946/electronrepo.git
+[submodule "template/electronrepo"]
+	path = template/electronrepo
+	url = git@github.com:vhc1946/electronrepo.git
+[submodule "template/node-server"]
+	path = template/node-server
+	url = git@github.com:vhc1946/node-server.git
