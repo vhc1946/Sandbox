@@ -10,3 +10,6 @@
 [submodule "template/VA-electrontemplate"]
 	path = template/VA-electrontemplate
 	url = https://github.com/vhc1946/VA-electrontemplate.git
+[submodule "repos/webrepo"]
+	path = repos/webrepo
+	url = https://github.com/Vogel-Heating-Cooling/webrepo
