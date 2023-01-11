@@ -7,6 +7,3 @@
 [submodule "vapi/core"]
 	path = vapi/core
 	url = https://github.com/vhc1946/VAPI-CORE.git
-[submodule "bench"]
-	path = bench
-	url = https://github.com/vhc1946/bench.git
