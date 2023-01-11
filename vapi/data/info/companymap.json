@@ -1,0 +1,26 @@
+{
+  "root":"store",
+  "name":"company",
+  "stores":{
+    "EMPLOYEES":{
+      "master": {
+        "filename": "employee-master.db",
+        "ensure": {
+          "fieldName": "eid",
+          "unique": true,
+          "sparse": true
+        },
+        "map": {}
+      },
+      "users":{
+        "filename":"company-users.db",
+        "ensure":{
+          "fieldName": "user",
+          "unique": true,
+          "sparse": true
+        },
+        "map":{}
+      }
+    }
+  }
+}

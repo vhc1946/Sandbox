@@ -1,0 +1,18 @@
+{
+  "root":"store",
+  "name":"jonas",
+  "stores":{
+    "SERVICE":{
+      "flbook":{
+        "filename":"jfbook.db",
+        "endsure":{}
+      }
+    },
+    "AR":{
+      "customers":{
+        "filename":"jcustomers.db",
+        "ensure":{}
+      }
+    }
+  }
+}
