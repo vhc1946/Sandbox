@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+/**
+ * Drop Note component class which supports custom levels and a timeout function
+ */
 export class DropNote extends Component {
     constructor(props) {
         super(props);

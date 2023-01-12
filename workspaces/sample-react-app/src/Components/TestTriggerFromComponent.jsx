@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import { ActionButton } from './ActionButton';
 
 export class TestTriggerFromComponent extends Component {
     constructor(props) {
         super(props)
 
-        this.handleClick = this.handleClick.bind(this);
+        this.DropTicketModify = this.DropTicketModify.bind(this);
     }
 
     /**
      * On click, trigger drop note based on input
      */
-    handleClick() {
+    DropTicketModify() {
         if (document.getElementById('in-text').value == "yellow"){
             this.props.UpdateDropNote('yellow', 'Yellow!')
         } else if (document.getElementById('in-text').value == "green") {
@@ -24,7 +25,7 @@ export class TestTriggerFromComponent extends Component {
         return(
             <div>
                 <input id = "in-text"placeholder='Type here'></input>
-                <button onClick = {this.handleClick}>Trigger DropNote</button>
+                <ActionButton ClickFunction = {this.DropTicketModify} text = "Trigger DropNote"></ActionButton>
             </div>
         );
     }
